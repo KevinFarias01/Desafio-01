@@ -130,7 +130,46 @@ img{
     position: middle;
 
 }
+
+article > aside{
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 3px 3px 7px rgb(9, 112, 35);
+    
+}
+
+article > aside >ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+
+}
+
+article > aside >h3 {
+    background-color: var(--cor5);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
 footer{
     background-color: var(--cor5);
     color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor3);
 }
